@@ -1,0 +1,17 @@
+[![](https://github.com/dviglo2d/dviglo2d/actions/workflows/dv_big_int.yml/badge.svg)](https://github.com/dviglo2d/dviglo2d/actions/workflows/dv_big_int.yml)
+
+# DvBigInt
+
+Длинная арифметика на языке C++20 с подробным описанием алгоритмов.
+
+Библиотека не имеет зависимостей, можно использовать отдельно от движка.
+
+Лицензия: MIT.
+
+## Использование
+
+Скопируйте файлы dv_big_int.cpp и dv_big_int.hpp в свой проект.
+
+## Документация
+
+В папке docs [туториал](docs/1_basics.md) с описанием алгоритмов.

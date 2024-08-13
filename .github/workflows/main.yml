@@ -61,8 +61,8 @@ jobs:
       # https://github.com/actions/checkout
       uses: actions/checkout@v4
       with:
-        fetch-depth: 0
         path: repo # Папка, в которую будет скачан репозиторий
+        submodules: recursive # Библиотеки тоже качаем
 
     - name: Скачиваем кэш
       uses: actions/cache@v4
@@ -193,7 +193,9 @@ jobs:
     steps:
     - name: Скачиваем репозиторий
       uses: actions/checkout@v4
-      with: { path: "engine_repo" }
+      with:
+        path: engine_repo # Папка, в которую будет скачан репозиторий
+        submodules: recursive # Библиотеки тоже качаем
 
     - name: Устанавливаем зависимости
       run: |

@@ -1,0 +1,3 @@
+[submodule "libs/third_party/sdl"]
+	path = libs/third_party/sdl
+	url = https://github.com/dviglo2d/sdl
